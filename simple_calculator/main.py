@@ -8,7 +8,7 @@ class SimpleCalculator:
         return sum(args)
 
     def sub(self, a, b):
-        return a - b
+        return a + b
 
     def mul(self, *args):
         if not all(args):
